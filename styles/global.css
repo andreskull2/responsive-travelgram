@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    --bg-color: #ffffff;
+    --surface-color: #F5F5F5;
+    --skeleton-color: #D9D9D9;
+    --shape-transparency: #ffffff8f;
+
+    --text-color-primary: #313131;
+    --text-color-secondary: #6C6C6C;
+
+    --brand-color: #EF5F4C;
+    
+    --ff-sans: 'Poppins', system-ui, sans-serif;
+    --fw-base: 400;
+    --fw-sm: 400;
+    --fw-bold: 800;
+
+    --fs-sm: 0.875rem;
+    --fs-base: 0.875rem;
+    --fs-md: 1rem;
+    --fs-xl: 1.5rem;
+}
+
+html {
+    font-family: var(--ff-sans);
+    font-weight: var(--fw-base);
+    font-size: var(--fs-base);
+    line-height: 1.7;
+    color: var(--text-color-primary);
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    line-height: 1.25;
+    color: var(--text-color-primary);
+    font-weight: var(--fw-bold);
+    font-size: var(--fs-xl);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul [role="list"] {
+    list-style: none;
+}
+
+@media (width >= 80em) {
+    :root {
+        --fs-xl: 2rem;
+    }
+}
+
