@@ -35,6 +35,10 @@
     --fs-md: 1rem; /* 16px/16=1rem */
     --fs-xl: 1.5rem; /* 24px/16=1.5rem */
 
+    /* Padding Eixo Y */
+    --py-base: 1rem;
+    --py-xl: 2rem;
+
     /* Padding eixo X */
     --px-lg: 1rem;
 }
@@ -69,8 +73,15 @@ ul [role="list"] {
 
 @media (width >= 80rem) {
     :root {
+        /* Font size - Desktop */
         --fs-xl: 2rem;
 
+        /* Padding Eixo Y - Desktop */
+        --py-base: 1.25rem;
+        --py-md: 1.5rem;
+        --py-xl: 2rem;
+
+        /* Padding Eixo X - Desktop */
         --px-lg: 2rem;
     }
 }

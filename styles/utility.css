@@ -1,3 +1,15 @@
+.py-base {
+    padding-block: var(--py-base);
+}
+
+.py-md {
+    padding-block: var(--py-md);
+}
+
+.py-xl {
+    padding-block: var(--py-xl);
+}
+
 .container {
     --max-width: 360px;
     
@@ -9,9 +21,27 @@
     border: solid violet;
 }
 
+.desktop-only {
+    display: none;
+}
+
+.even-columns {
+    display: grid;
+    gap: 1rem;
+}
 
 @media (width >= 80rem) {
     .container {
         --max-width: 80rem;
     }
+
+    .desktop-only {
+        display: initial;
+    }
+
+    .even-columns {
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
+
 }
