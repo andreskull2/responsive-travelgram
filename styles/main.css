@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding-block: 1rem;
+    
+}
+
+main img {
+    width: 20.5rem;
+    height: 20.5rem;
+    object-fit: cover;
+}
+
+@media (width >= 80rem) {
+    & main {
+        padding-block: var(--py-md);
+        padding-inline: 0;
+        
+        justify-content: space-between;
+        gap: 1.5rem;
+    }
+
+    & main img {
+        width: 17.875rem;
+        height: 17.875rem;
+    }
+}
