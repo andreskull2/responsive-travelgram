@@ -1,0 +1,76 @@
+.profile {
+    padding-block: var(--py-xl);
+    padding-inline: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#profile {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: var(--fs-base);
+}
+
+#profile > div {
+    max-width: 296px;
+}
+
+#profile img {
+    width: 7.5rem;
+    height: 7.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#profile h1 {
+    margin-top: 1rem;
+   margin-bottom: .5rem;
+}
+
+#info {
+    margin-top: 2rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: var(--fs-base);
+    gap: .5rem;
+    
+    width: 17.5rem;
+}
+
+#info li {
+    
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+@media (width >= 80rem) {
+    & .profile {
+        padding-block: var(--py-xl);
+        padding-inline: 0;
+    }
+
+   & #profile {
+        flex-wrap: nowrap;
+       gap: 2rem;
+    }
+
+    & #profile > div {
+        max-width: 24rem;
+    }
+
+    & #info {
+        margin-top: 0rem;
+        flex-direction: column;
+
+    }
+
+    & #profile img {
+        width: 11rem;
+        height: 11rem;
+}
+}
