@@ -30,6 +30,7 @@
     gap: 1rem;
 }
 
+/* Desktop */
 @media (width >= 80rem) {
     .container {
         --max-width: 80rem;
