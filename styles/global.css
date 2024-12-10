@@ -29,10 +29,14 @@
     --fw-sm: 400;
     --fw-bold: 800;
 
+    /* Font Size */
     --fs-sm: 0.875rem;
     --fs-base: 0.875rem;
     --fs-md: 1rem;
     --fs-xl: 1.5rem;
+
+    /* Padding eixo X */
+    --px-lg: 1rem;
 }
 
 html {
@@ -66,6 +70,8 @@ ul [role="list"] {
 @media (width >= 80em) {
     :root {
         --fs-xl: 2rem;
+
+        --px-lg: 2rem;
     }
 }
 
