@@ -30,10 +30,10 @@
     --fw-bold: 800;
 
     /* Font Size */
-    --fs-sm: 0.875rem;
-    --fs-base: 0.875rem;
-    --fs-md: 1rem;
-    --fs-xl: 1.5rem;
+    --fs-sm: 0.875rem; /* 14px/16=0.875rem */
+    --fs-base: 0.875rem; /* 14px/16=0.875rem */
+    --fs-md: 1rem; /* 16px/16=1rem */
+    --fs-xl: 1.5rem; /* 24px/16=1.5rem */
 
     /* Padding eixo X */
     --px-lg: 1rem;
@@ -42,7 +42,7 @@
 html {
     font-family: var(--ff-sans);
     font-weight: var(--fw-base);
-    font-size: var(--fs-base);
+    font-size: var(--fs-md);
     line-height: 1.7;
     color: var(--text-color-primary);
 }
@@ -67,7 +67,7 @@ ul [role="list"] {
     list-style: none;
 }
 
-@media (width >= 80em) {
+@media (width >= 80rem) {
     :root {
         --fs-xl: 2rem;
 
