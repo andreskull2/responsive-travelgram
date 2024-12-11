@@ -1,0 +1,60 @@
+footer {
+    padding: 1rem 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Layout padrão (mobile-first) */
+    gap: 1rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column; /* Empilha itens no mobile */
+    align-items: center; 
+    gap: 0.5rem;
+    text-align: center; /* Centraliza texto no mobile */
+}
+
+.footer-links {
+    display: flex;
+    gap: 1rem; /* Espaço entre os links */
+    justify-content: center; /* Centraliza links */
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: inherit; 
+    font-size: 0.9rem;
+}
+
+.footer-brand {
+    font-weight: 500;
+    color: inherit; /* Cor do texto */
+}
+
+/* Estilo para telas maiores (desktop) */
+@media (min-width: 1280px) {
+    .footer {
+        flex-direction: row; /* Coloca os elementos lado a lado */
+        justify-content: space-between; /* Espaça os itens ao máximo */
+        padding: 1rem 2rem; /* Adiciona espaçamento horizontal */
+    }
+
+    .footer-container {
+        flex-direction: row; /* Organiza os itens horizontalmente */
+        justify-content: space-between; /* Divide o espaço entre eles */
+        width: 100%; /* Ocupa toda a largura disponível */
+        max-width: 1280px; /* Centraliza no limite do container */
+    }
+
+    .footer-links {
+        justify-content: flex-end; /* Alinha os links à direita */
+    }
+
+    .footer-brand {
+        text-align: left; /* Alinha o texto à esquerda */
+    }
+}
