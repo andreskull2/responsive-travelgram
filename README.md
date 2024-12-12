@@ -24,7 +24,7 @@ This project was developed with the following technologies:
 
 ## 💻 Project
 This project involved designing and implementing a responsive layout for a travel photo profile page, ensuring compatibility with mobile and desktop devices. The focus was on maintaining a visually appealing and functional user interface that adapts seamlessly to different screen sizes, prioritizing usability and accessibility.
-- [Access the finished project](https://andreskull2.github.io/formulario-convite/)
+- [Access the finished project](https://andreskull2.github.io/responsive-travelgram/)
 - [Watch the classes](https://www.rocketseat.com.br/formacao/fullstack)
 
 ## 🔖 Layout
