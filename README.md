@@ -13,7 +13,7 @@ In this project, I adapted the layout of a travel photo social network profile t
 </p>
 <br>
 <p align="center">
-  <img alt="Pratical challenge" src="github/thumbnail.png" width="100%">
+  <img alt="Pratical challenge" src="github/thumbnail.jpg" width="100%">
 </p>
 
 ## 🚀 Technologies
